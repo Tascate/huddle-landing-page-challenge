@@ -1,5 +1,5 @@
-@import url(https://fonts.google.com/specimen/Poppins);
-@import url(https://fonts.google.com/specimen/Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
     --violet: hsl(257, 40%, 49%);
@@ -38,7 +38,7 @@ main {
 
 .landing-button {
     color: var(--violet);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     background-color: white;
     width: 12rem;
@@ -49,6 +49,7 @@ main {
 
 .landing-button:hover {
     background-color: var(--softmagenta);
+    color: white;
 }
 
 .attribution { font-size: 11px; text-align: center; }
