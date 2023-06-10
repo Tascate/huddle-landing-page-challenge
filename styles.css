@@ -14,8 +14,20 @@
 
 body {
     min-height: 100vh;
-    background: var(--violet) url(./images/bg-desktop.svg) no-repeat;
-    background-size: cover;
+    background: var(--violet) url(./images/bg-mobile.svg) no-repeat;
+
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+
+main {
+    width: 80%;
+    display: grid;
+    justify-self: center;
+}
+
+.ui-illustration {
+    width: 100%;
 }
 
 .attribution { font-size: 11px; text-align: center; }
