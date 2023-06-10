@@ -14,16 +14,21 @@
 
 body {
     min-height: 100vh;
+    min-width: 100vw;
     background: var(--violet) url(./images/bg-mobile.svg) no-repeat;
+    background-size:  contain;
 
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 8rem auto 3rem;
 }
 
 main {
     width: 80%;
-    display: grid;
+
+    display: flex;
+    flex-direction: column;
     justify-self: center;
+    gap: 4.5rem;
 }
 
 .ui-illustration {
@@ -34,15 +39,35 @@ main {
     color: white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.landing-header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 2.25rem;
+}
+
+.landing-body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
 }
 
 .landing-button {
     color: var(--violet);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    
+    margin-top: 1rem;
     background-color: white;
-    width: 12rem;
-    height: 3rem;
+    width: 13rem;
+    height: 2.75rem;
     border-radius: 24px;
     border: none;
 }
