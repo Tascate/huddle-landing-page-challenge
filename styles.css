@@ -30,5 +30,26 @@ main {
     width: 100%;
 }
 
+.landing-text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.landing-button {
+    color: var(--violet);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 24px;
+    border: none;
+}
+
+.landing-button:hover {
+    background-color: var(--softmagenta);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
