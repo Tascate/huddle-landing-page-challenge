@@ -13,7 +13,9 @@
 }
 
 body {
+    min-height: 100vh;
     background: var(--violet) url(./images/bg-desktop.svg) no-repeat;
+    background-size: cover;
 }
 
 .attribution { font-size: 11px; text-align: center; }
