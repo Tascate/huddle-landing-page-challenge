@@ -117,5 +117,22 @@ footer {
     align-self: end;
 }
 
+@media screen and (min-width: 900px) {
+    body {
+        background: var(--violet) url(./images/bg-desktop.svg) no-repeat;
+        background-size: cover;
+        background-position-x: -1rem;
+    }
+    main {
+        width: 90%;
+        display: grid;
+        gap: 2.5rem;
+        grid-template-columns: auto auto;
+    }
+    .ui-illustration {
+        min-width: 42.5rem;
+    }
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
