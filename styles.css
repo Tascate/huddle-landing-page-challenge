@@ -126,7 +126,7 @@ footer {
 @media screen and (min-width: 900px) {
     .header-logo {
         height: 3rem;
-        padding-left: 5%;
+        padding-left: 6rem;
         margin-bottom: 0;
     }
     
