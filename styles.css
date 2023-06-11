@@ -118,19 +118,72 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+    .header-logo {
+        height: 3rem;
+        padding-left: 5%;
+        margin-bottom: 0;
+    }
+    
+    .landing-text {
+        text-align: left;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 7rem;
+        padding-right: 8rem;
+    }
+
+    .landing-header {
+        font-size: 36px;
+        line-height: 3.5rem;
+    }
+
+    .landing-body {
+        margin-top: 1.5rem;
+        line-height: 1.75rem;
+        font-size: 16px;
+    }
+
+    .landing-button {
+        font-size: 18px;
+    }
+
     body {
         background: var(--violet) url(./images/bg-desktop.svg) no-repeat;
         background-size: cover;
         background-position-x: -1rem;
     }
+
     main {
-        width: 90%;
+        width: 100%;
         display: grid;
         gap: 2.5rem;
         grid-template-columns: auto auto;
+        padding-top: 3rem;
+        row-gap: 1rem;
     }
+
     .ui-illustration {
         min-width: 42.5rem;
+        padding-left: 6rem;
+    }
+
+    .landing-button {    
+        width: 13rem;
+        height: 3.5rem;
+        border-radius: 36px;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .social-media-links {
+        grid-column-end: -1;
+        justify-self: flex-end;
+        padding-right: 6rem;
+    }
+
+    .social-media-button {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 18px;
     }
 }
 
