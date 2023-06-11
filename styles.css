@@ -193,5 +193,5 @@ footer {
     }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {color:white; font-family: "Open Sans", sans-serif; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
