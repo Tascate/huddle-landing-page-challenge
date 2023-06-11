@@ -12,6 +12,17 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 2rem;
+    padding-left: 10%;
+    margin-bottom: 1.5rem;
+}
+
 body {
     min-height: 100vh;
     background: var(--violet) url(./images/bg-mobile.svg) no-repeat;
