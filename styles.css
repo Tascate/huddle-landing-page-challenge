@@ -78,6 +78,30 @@ main {
     color: white;
 }
 
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.75rem;
+
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.social-media-button {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: white;
+
+    width: 2rem;
+    height: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     align-self: end;
 }
