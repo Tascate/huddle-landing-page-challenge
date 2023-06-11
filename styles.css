@@ -104,6 +104,7 @@ main {
     border: 1px solid;
     border-radius: 50%;
     border-color: white;
+    color: white;
 
     width: 2rem;
     height: 2rem;
@@ -111,6 +112,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-media-button:hover {
+    border-color: var(--softmagenta);
+    color: var(--softmagenta);
 }
 
 footer {
