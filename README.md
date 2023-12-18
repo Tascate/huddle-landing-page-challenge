@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://tolasc.github.io/huddle-landing-page-challenge/](https://tolasc.github.io/huddle-landing-page-challenge/)
+- Live Site URL: [https://tascate.github.io/huddle-landing-page-challenge/](https://tascate.github.io/huddle-landing-page-challenge/)
 
 ## My process
 
